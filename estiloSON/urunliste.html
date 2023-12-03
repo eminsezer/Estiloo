@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="standart.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+
+</head>
+
+<body class="scroll-smooth overflow-auto">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <div class="fixed left-0 top-0 z-50 flex w-[30px] items-center justify-center bg-gray-200 py-[2.5px] text-[12px] uppercase text-black sm:bg-red-200 md:bg-yellow-200 lg:bg-green-200 xl:bg-blue-200 2xl:bg-pink-200"
+        bis_skin_checked="1">
+        <span class="block sm:hidden">all</span>
+        <span class="hidden sm:block md:hidden">sm</span>
+        <span class="hidden md:block lg:hidden">md</span>
+        <span class="hidden lg:block xl:hidden">lg</span>
+        <span class="hidden xl:block 2xl:hidden">xl</span>
+        <span class="hidden 2xl:block">2xl</span>
+    </div>
+    <div class="bg-[#4c7886] text-white text-center py-1 max-xl:mx-auto">100 TL Üzeri Siparişlerinizde <span
+            class="font-bold">Kargo Bedava!</span></div>
+    <header class=" sticky top-0 z-50 bg-white my-auto">
+        <div class="w-full h-20 flex items-center justify-between">
+
+            <div class="container mx-auto flex justify-between max-sm:container max-sm:mx-auto">
+
+                <lu class="text-black uppercase list-none flex gap-4 text-xl max-md:hidden">
+                    <div class="group relative cursor-pointer">
+                        <li class="flex relative gap-2 hover:text-[#4c7886] transition duration-300 "> Erkek <img
+                                src="assest/icon/SVG/yon.svg" height="15" width="15"> </li>
+                        <div
+                            class="bg-white text-black list-none border-b-2 border-[#4c7886] absolute top-[24px] invisible group-hover:visible">
+                            <div class="p-10 container mx-auto group-hover:visible">
+                                <div class="flex gap-10 group-hover:visible">
+                                    <lu class="whitespace-nowrap">
+                                        <div class="text-2xl whitespace-nowrap"><a href="urunliste.html">Üst Giyim</a>
+                                        </div>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 1</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 2</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 3</li>
+                                    </lu>
+                                    <lu class="whitespace-nowrap">
+                                        <div class="text-2xl whitespace-nowrap">Alt Giyim</div>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 1</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 2</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 3</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 4</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 5</li>
+                                    </lu>
+                                    <lu class="whitespace-nowrap">
+                                        <div class="text-2xl">Aksesuar</div>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 1</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 2</li>
+                                        <li class="text-slate-600 text-base mt-1">Deneme Kategori 3</li>
+                                    </lu>
+                                    <div class="w-72">
+                                        <img src="assest/urun/menugorsel.png">
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <li class="flex gap-2 hover:text-[#4c7886] transition duration-300">Kadın <img
+                            src="assest/icon/SVG/yon.svg" height="15" width="15"></li>
+                    <li class="flex gap-2 hover:text-[#4c7886] transition duration-300">Çocuk <img
+                            src="assest/icon/SVG/yon.svg" height="15" width="15"></li>
+
+                </lu>
+
+
+                <img id="hamburger" src="assest/icon/SVG/hamburgerler.svg" height="50" width="50"
+                    class="max-md:block md:hidden">
+                <div id="mobilMenu" class="bg-[#00000040] w-full h-[100rem] -top-0 fixed left-0 z-50 hidden">
+                    <div class="absolute bg-white h-[100rem] top-0 left-0 px-10 py-4 w-80 z-50">
+                        <div class="py-4 flex justify-end">
+                            <button id="kapat" class="cursor-pointer text-end"><i
+                                    class="fa-solid fa-xmark text-xl"></i></button>
+                        </div>
+                        <img src="assest/SVG/logo.png" alt="" srcset="">
+                        <div class="py-6">
+                            <div class="flex justify-items-center border-y-2 border-[#4c7886] ">
+                                <input type="search" placeholder="Aradığınız ürün"
+                                    class="active:outline-none focus-within:outline-none placeholder:italic italic p-2 w-full">
+                                <button class="px-2">
+                                    <img src="assest/icon/SVG/arama.svg" alt="" srcset="" height="15" width="15">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="">
+                            <lu class="list-none text-center ">
+                                <li>Erkek</li>
+                                <li>Kadın</li>
+                                <li>Çocuk</li>
+                            </lu>
+                        </div>
+
+                        <div class="pt-80">
+                            <div class="flex justify-center">
+                                <select class="flex justify-center ">
+                                    <option>TL</option>
+                                    <option>USD</option>
+                                    <option>EURO</option>
+                                </select>
+                                <div class="pl-3 flex">
+                                    <img src="assest/icon/SVG/arama.svg" height="15" width="15" class="mr-4">
+                                    <a href="uyekayit.html"><img src="assest/icon/SVG/uye.svg" height="15" width="15"
+                                            class="mr-4"></a>
+                                    <img src="assest/icon/SVG/sepet.svg" height="15" width="15" class="mr-4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html">
+                    <img class="absolute left-0 right-0 top-4 m-auto z-10" src="assest/SVG/logo.png" alt="logo"  height="65" width="173">
+                </a>
+                <div class="flex relative">
+                    <img src="assest/icon/SVG/arama.svg" height="15" width="15" class="mr-3">
+                    <a href="uyekayit.html" class="m-auto"><img src="assest/icon/SVG/uye.svg" height="15" width="15"
+                            class="mr-3"></a>
+                    <img id="sepet" src="assest/icon/SVG/sepet.svg" height="15" width="15" class="mr-3">
+                    <div id="sepetAcilir" class="bg-[#00000040] w-full h-[100rem] -top-0 fixed left-0 z-50 hidden">
+                        <div class="absolute bg-white h-[100rem] top-0 right-0 px-10 py-4 w-80 z-50">
+                            <div class="py-4 flex justify-start">
+                                <button id="sepetKapat" class="cursor-pointer text-start"><i
+                                        class="fa-solid fa-xmark  text-lg"></i></button>
+                            </div>
+                            <span class="text-4xl flex flex-col justify-center items-center">
+                                <i class="fa-solid fa-cart-shopping"></i>SEPETİM</span>
+                            <div class="py-1">
+                                <div class="flex justify-center items-center border-y border-[#4c7886] py-4">
+                                    <i class="fa-solid fa-trash pr-2"></i>
+                                    <img src="assest/urun/resimurun.png" alt="" srcset="" height="80" width="80">
+                                    <div class="px-2">
+                                        <span class="whitespace-nowrap">Kanagawa T-Shirt</span>
+                                        <p class="text-sm line-through">749.99TL</p>
+                                        <p>399,99TL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-1">
+                                <div class="flex justify-center items-center border-y border-[#4c7886] py-4">
+                                    <i class="fa-solid fa-trash pr-2"></i>
+                                    <img src="assest/urun/resimurun.png" alt="" srcset="" height="80" width="80">
+                                    <div class="px-2">
+                                        <span class="whitespace-nowrap">Kanagawa T-Shirt</span>
+                                        <p class="text-sm line-through">749.99TL</p>
+                                        <p>399,99TL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="py-1">
+                                <div class="flex justify-center items-center border-y border-[#4c7886] py-4">
+                                    <i class="fa-solid fa-trash pr-2"></i>
+                                    <img src="assest/urun/resimurun.png" alt="" srcset="" height="80" width="80">
+                                    <div class="px-2">
+                                        <span class="whitespace-nowrap">Kanagawa T-Shirt</span>
+                                        <p class="text-sm line-through">749.99TL</p>
+                                        <p>399,99TL</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center py-4">
+                                <div class="grid grid-cols-2">
+                                    <span>Sepet Toplamı</span>
+                                    <span class="text-right">1.199,97 TL</span>
+                                    <span>Kargo Ücreti</span>
+                                    <span class="text-right">19,00 TL</span>
+                                    <span>Genel Toplam </span>
+                                    <span class="text-right">1.218,97 TL</span>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center">
+                                <span class="border border-[#4c7886] px-4 py-1">Sepete Git</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p
+                        class="absolute border px-1 text-[10px] border-black right-[80px] top-4 bg-white max-md:right-[20px] max-md:top-5">
+                        2</p>
+                    <span class="max-md:hidden">599,99TL</span>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section class="pb-10">
+            <div class="container mx-auto"><i class="fa-solid fa-house mr-1"></i>Anasayfa > Erkek > Üst Giyim > Gömlek
+            </div>
+            <div class="text-center py-10">
+                <div class="text-center">
+                    <h1 class="text-6xl text-[#4c7886] py-4">GÖMLEK</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, similique?</p>
+                </div>
+            </div>
+            <div class="flex container mx-auto pt-12 max-lg:grid z-50">
+                <div class="w-1/4 shadow-2xl p-2 mr-4 h-full py-12 pb-28 sticky top-20 max-lg:w-full max-lg:static">
+                    <span class="text-center items-center flex justify-center text-2xl font-thin">FİLTRE</span>
+                    <div class="text-xl font-semibold flex justify-between">Beden <i
+                            class="fa-solid fa-chevron-down text-end"></i></div>
+                    <div class="max-h-32 overflow-y-auto border-r border-[#4c7886]">
+                        <lu class="list-none text-[#4c7886] text-lg">
+                            <li><i class="fa-regular fa-square mr-1"></i>15</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>16</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>17</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>18</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>19</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>20</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>21</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>22</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>23</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>24</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>25</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>26</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>27</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>28</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>29</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>30</li>
+                            <li><i class="fa-regular fa-square mr-1"></i>31</li>
+                        </lu>
+                    </div>
+                    <div class="text-xl font-semibold flex justify-between mt-2 text-[#4c7886]">Renk <i
+                            class="fa-solid fa-chevron-right text-end"></i></div>
+                    <div class="text-xl font-semibold flex justify-between mt-2 text-[#4c7886]">Kumaş tipi <i
+                            class="fa-solid fa-chevron-right text-end"></i></div>
+                    <div class="text-xl font-semibold flex justify-between mt-2 text-[#4c7886]">Fiyat <i
+                            class="fa-solid fa-chevron-down text-end"></i></div>
+
+                    <div class="w-full flex justify-center items-center gap-1 mb-2 noui-slider-input">
+                        <div class="w-1/2 flex items-center justify-center">
+                            <input type="text" class="form-control border border-[#4c7886] w-5/12 text-center"
+                                id="filter-price-slider-min-price" placeholder="Az">
+                            <div class="border-b  h-1 w-5 border-[#4c7886] mx-2"></div>
+                            <input type="text" class="form-control border border-[#4c7886] w-5/12 text-center"
+                                id="filter-price-slider-max-price" placeholder="Çok">
+                        </div>
+
+                    </div>
+
+                    <div class="w-full mb-2">
+                        <div id="filter-price-slider" class="w-full"></div>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <div class="absolute bottom-1 border border-[#4c7886] px-4 py-1 max-lg:bottom-20">FİLTELE</div>
+                    </div>
+                </div>
+                <div
+                    class="grid grid-cols-3 gap-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 max-sm:grid-cols-1 max-sm:px-4">
+
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="absolute text-white border border-red-700 bg-red-400 p-3 -top-4 -right-2">YENİ</div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="absolute text-white border border-red-700 bg-red-400 p-3 -top-4 -right-2">YENİ</div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+                    <div class="relative border-2 p-2 border-[#4c7886] rounded mx-auto group">
+                        <img class="hover:scale-[1.01] transition duration-500" src="assest/urun/resimurun.png" alt=""
+                            srcset="">
+                        <h1 class="pt-2">Kanagawa T-Shirt</h1>
+                        <span class="text-xs text-[#4c7886] tracking-widest">MARKA ADI</span>
+                        <p class="text-[12px] text-[#4c7886] line-through">749,99TL</p>
+                        <div class="flex gap-3">
+                            <p class="text-xl mb-1">399,99TL</p>
+                            <button
+                                class="border px-2 border-[#4c7886] hover:bg-[#4c7886] hover:text-white duration-500 transition">Sepete
+                                Ekle</button>
+                        </div>
+                        <div class="flex justify-center ">
+                            <div
+                                class="absolute list-none bottom-40 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 text-white cursor-pointer">
+                                    <li class="border border-[#4c7886] px-2">S</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">L</li>
+                                    <li class="border border-[#4c7886] px-2">X</li>
+                                </lu>
+                            </div>
+                            <div
+                                class="absolute list-none bottom-32 group-hover:opacity-100 opacity-0 transition duration-500">
+                                <lu class="flex gap-2 ">
+                                    <li class="border border-[#4c7886] p-3 bg-red-500 text-red-500 "></li>
+                                    <li class="border border-[#4c7886] p-3 bg-yellow-500 text-yellow-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-green-500 text-green-500"></li>
+                                    <li class="border border-[#4c7886] p-3 bg-blue-700 text-blue-700"></li>
+                                </lu>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute right-5 bottom-[10px] h-[40px] bg-[#4c7886] px-4 text-white py-1 items-center flex flex-col text-xs">
+
+                            <span>%</span>
+                            <p>47</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex justify-center items-center py-1 border border-black 2xl:col-span-3 xl:col-span-3 lg:col-span-2 md:col-span-2 sm:col-span-2 mt-4">
+                        <i class="fa-solid fa-chevron-left text-end mr-5"></i>
+                        <ul class="flex gap-1">
+                            <li class="border border-black px-2">1</li>
+                            <li class="border border-black px-2">2</li>
+                            <li class="border border-black px-2">3</li>
+                            <li class="border border-black px-2">4</li>
+                            <li class="border border-black px-2">5</li>
+                            <li class="border border-black px-2">6</li>
+                            <li class="border border-black px-2">7</li>
+                        </ul>
+                        <i class="fa-solid fa-chevron-right text-end ml-5"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container mx-auto py-24">
+                <div class="grid grid-cols-2 max-lg:grid-cols-1">
+                    <div class="flex flex-wrap items-center mx-auto max-lg:justify-center max-lg:pb-12">
+                        <span class="text-[40px] lg:text-[30px] sm:text-[37px]">Bizden Haberdar Olmak İster
+                            misiniz?</span>
+                        <span class="text-[#4c7886] text-xl lg:text-sm sm:text-base">E-Bülten abonemiz olarak
+                            kampanyalardan ve yeniliklerden
+                            haberdar olabilirsiniz.</span>
+                        <div class="flex py-4 w-full">
+                            <input name="E-Bülten" placeholder="E-Posta adresinizi giriniz."
+                                class="placeholder:pl-3 placeholder:italic border-y-2 py-2 border-[#4c7886] w-full hover:outline-none active:outline-none mr-2 focus-within:outline-none">
+                            <button
+                                class="bg-[url('assest/icon/SVG/gonder.svg')] bg-no-repeat w-[45px] bg-center"></button>
+                        </div>
+                        <div class="flex justify-center items-center mx-auto text-[#4c7886]">
+                            <input type="checkbox" class="h-5 w-5 mr-2 border-[#4c7886]">
+                            <span><span class="underline">KVKK Sözleşmesi</span>'ni Okudum ve Kabul Ediyorum.</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-center">
+                        <span class="text-[40px]">Sosyal Medya</span>
+                        <span class="text-[#4c7886] text-xl lg:text-sm sm:text-sm">Takipçilerimize Özel Kampanya ve
+                            Fırsatlardan olmak için E-bültenimize abone olun!</span>
+                        <div class="flex justify-center gap-2 py-2">
+                            <img src="assest/SVG/twitter.svg" alt="" srcset="" height="50" width="50">
+                            <img src="assest/SVG/facebook.svg" alt="" srcset="" height="50" width="50">
+                            <img src="assest/SVG/tiktok.svg" alt="" srcset="" height="50" width="50">
+                            <img src="assest/SVG/youtube.svg" alt="" srcset="" height="50" width="50">
+                            <img src="assest/SVG/instagram.svg" alt="" srcset="" height="50" width="50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-4">
+            <div class="w-full bg-[#4c7886] flex justify-center py-8">
+                <div class="container">
+                    <div
+                        class="grid grid-cols-4 list-none text-white py-8 gap-64 max-md:grid-cols-2 max-md:gap-4 md:grid-cols-2 md:gap-4 2xl:grid-cols-4">
+                        <div>
+                            <div class="text-3xl border-b-2 pb-1 w-2/5">Kategoriler</div>
+                            <lu class="text-sm ">
+                                <li class="mt-1">Erkek</li>
+                                <li class="mt-1">Kadın</li>
+                                <li class="mt-1">Çocuk</li>
+                                <li class="mt-1">İndirimli</li>
+                            </lu>
+                        </div>
+                        <div>
+                            <div class="text-3xl border-b-2 pb-1 w-2/5">Erişim</div>
+                            <lu class="text-sm">
+                                <li class="mt-1">Üye Kayıt</li>
+                                <li class="mt-1">Üye Giriş</li>
+                                <li class="mt-1">Sepet</li>
+                                <li class="mt-1">Favori Listesi</li>
+                            </lu>
+                        </div>
+                        <div>
+                            <div class="text-3xl border-b-2 pb-1 w-2/5">Önemli</div>
+                            <lu class="text-sm">
+                                <li class="mt-1">İletişim</li>
+                                <li class="mt-1">Teslimat Koşulları</li>
+                                <li class="mt-1">Gizlilik ve Güvenlik</li>
+                                <li class="mt-1">Üyelik Sözleşmesi</li>
+                                <li class="mt-1">Satış Sözleşmesi</li>
+                                <li class="mt-1">Garanti ve İade Koşulları</li>
+                            </lu>
+                        </div>
+                        <div class="">
+                            <div class="text-3xl border-b-2 pb-1 w-2/5">İletişim</div>
+                            <lu class="text-sm">
+                                <li class="mt-1 text-xs">
+                                    <i class="fa-solid fa-location-dot mr-2 text-base"></i> Avşar Mah. Batı Çevre Yolu
+                                    Bulvarı KSÜ Avşar Kampüsü Teknokent
+                                    Bina No:259 Kat:2 No:41 ONİKİŞUBAT / KAHRAMANMARAŞ
+                                </li>
+                                <li class="mt-1"><i class="fa-solid fa-phone mr-2 text-base"></i>+90 (545) 316 64 70
+                                </li>
+                                <li class="mt-1"><i
+                                        class="fa-regular fa-envelope mr-2 text-base"></i>eminsezer253@gmail.com</li>
+                            </lu>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mx-auto py-4">
+            <div class="flex justify-center items-center gap-28 sm:gap-2 max-sm:gap-2">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+            </div>
+            <div class="flex justify-center items-center gap-14 sm:gap-4 max-sm:gap-1 pt-4 max-sm:hidden">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+                <img src="assest/finance/cardfinans.svg" alt="" srcset="" height="80" width="80">
+            </div>
+        </section>
+    </main>
+    <script src="urunliste.js"></script>
+    <script src="standart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.7.0/nouislider.min.js"></script>
+
+</body>
+
+</html>

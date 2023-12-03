@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.56 90.7">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <g id="cöp">
+      <g id="Group_157" data-name="Group 157">
+        <path class="cls-1" d="m0,0v13.43h65.55V0H0Zm62.98,10.85H2.58V2.58h60.4v8.28Z"/>
+        <path id="Path_43" data-name="Path 43" class="cls-1" d="m0,17.36v73.34h65.56V17.36H0Zm62.98,70.77H2.58V19.93h60.41v68.19Zm-7.9-63.35h-10.46v58.48h10.46V24.78Zm-2.58,55.91h-5.31V27.35h5.31v53.33Zm-14.5-55.91h-10.46v58.48h10.47V24.78Zm-7.88,55.91V27.35h5.31v53.33s-5.31,0-5.31,0Zm-9.18-55.91h-10.46v58.48h10.46V24.78Zm-2.58,55.91h-5.31V27.35h5.31v53.33Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

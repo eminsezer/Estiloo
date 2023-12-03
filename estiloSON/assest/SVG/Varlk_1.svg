@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 172.53 59.42">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 10px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-4 {
+        letter-spacing: .34em;
+      }
+
+      .cls-3 {
+        font-size: 48px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: .34em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: .34em;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <g id="ESTILO" class="cls-2">
+      <text class="cls-3" transform="translate(0 40.8)"><tspan x="0" y="0">E</tspan><tspan class="cls-7" x="32.11" y="0">S</tspan><tspan x="61.15" y="0">TI</tspan><tspan class="cls-5" x="103.2" y="0">L</tspan><tspan x="130.8" y="0">O</tspan></text>
+    </g>
+    <g id="giyimin_en_güzel_hali" data-name="giyimin en güzel hali" class="cls-2">
+      <text class="cls-1" transform="translate(0 56.8)"><tspan class="cls-8" x="0" y="0">giyimin en gü</tspan><tspan class="cls-4" x="114.04" y="0">z</tspan><tspan class="cls-6" x="122.5" y="0">el hali</tspan></text>
+    </g>
+  </g>
+</svg>
